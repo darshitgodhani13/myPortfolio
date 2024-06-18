@@ -1,25 +1,49 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect } from "react";
+import ScrollReveal from "scrollreveal";
+import Header from "./components/Header";
+import Home from "./components/Home";
+import About from "./components/About";
+import Skills from "./components/Skills";
+import Projects from "./components/Projects";
+import Footer from "./components/Footer";
+import Contact from "./components/Contact";
+import "./App.css";
+const App = () => {
+  useEffect(() => {
+    const sr = ScrollReveal({
+      origin: "top",
+      distance: "80px",
+      duration: 800,
+      reset: true,
+    });
 
-function App() {
+    sr.reveal(".home-title", {});
+    sr.reveal(".button", { delay: 200 });
+    sr.reveal(".home-img", { delay: 100 });
+    sr.reveal(".home-social-icon", { interval: 200 });
+
+    sr.reveal(".about-subtitle", { delay: 150 });
+    sr.reveal(".about-text", { delay: 150 });
+
+    sr.reveal(".skills-subtitle", {});
+    sr.reveal(".skills-data", { interval: 100 });
+
+    sr.reveal(".project-img", { interval: 200 });
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header />
+      <main className="l-main">
+        <Home />
+        <About />
+        <Skills />
+        <Projects />
+        <Contact />
+      </main>
+      <Footer />
     </div>
   );
-}
+};
 
 export default App;
