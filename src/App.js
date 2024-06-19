@@ -18,17 +18,17 @@ const App = () => {
     });
 
     sr.reveal(".home-title", {});
-    sr.reveal(".button", { delay: 200 });
+    sr.reveal(".button", { delay: 50 });
     sr.reveal(".home-img", { delay: 100 });
-    sr.reveal(".home-social-icon", { interval: 200 });
+    sr.reveal(".home-social-icon", { interval: 70 });
 
-    sr.reveal(".about-subtitle", { delay: 150 });
-    sr.reveal(".about-text", { delay: 150 });
+    sr.reveal(".about-subtitle", { delay: 100 });
+    sr.reveal(".about-text", { delay: 100 });
 
     sr.reveal(".skills-subtitle", {});
-    sr.reveal(".skills-data", { interval: 100 });
+    sr.reveal(".skills-data", { interval: 60 });
 
-    sr.reveal(".project-img", { interval: 200 });
+    // sr.reveal(".project-img", { interval: 0 });
   }, []);
 
   return (

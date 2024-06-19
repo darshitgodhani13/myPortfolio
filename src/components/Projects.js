@@ -24,6 +24,7 @@ const Projects = () => {
       title: "Amar Company",
       imgSrc: amarCms,
       description: "Pharma coumpany stock managment webaplication",
+      githubLink:"https://amar.samvartaka.com/"
     },
     {
       title: "Cook and Boardman poack details",
