@@ -3,6 +3,7 @@ import bearishos from "../assets/img/bearishos.png";
 import jumboCareer from "../assets/img/jumbocareer.png";
 import amarCms from "../assets/img/amarcms.png";
 import cycleVita from "../assets/img/cyclevita.png";
+import hisurat from "../assets/img/hisurat.png";
 import cookandBoadrman from "../assets/img/cookandboardman.jpg";
 
 const Projects = () => {
@@ -17,8 +18,6 @@ const Projects = () => {
       title: "Jumbo Career",
       imgSrc: jumboCareer,
       description: "Learning plateform webplication",
-      githubLink:
-        "https://tejedtech1-154623-react.b154623.dev.eastus.az.svc.builder.cafe/",
     },
     {
       title: "Amar Company",
@@ -36,9 +35,18 @@ const Projects = () => {
       imgSrc: cycleVita,
       description:
         "Pharma coumpny medicinn and daialye report and medicine webapplication",
-      githubLink:
-        "https://cyclevitaapp-461331-react.b461331.dev.eastus.az.svc.builder.cafe/",
     },
+    {
+      title: "Prism",
+      imgSrc: "Prism",
+      description: "An internet service provider customer review and data analysis webapplication",
+    },
+    {
+      title: "Hisurat",
+      imgSrc: hisurat,
+      description: "Discover Surat events, businesses, explore places, and book tickets online",
+      githubLink: "https://www.hisurat.com/"
+    }
   ];
 
   const navigetPage = (link) => {

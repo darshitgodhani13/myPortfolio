@@ -1,6 +1,6 @@
 import React from "react";
 import homeImg from "../assets/img/Scrollimg.png";
-import resume from "../assets/Darshit_Resume.pdf";
+import resume from "../assets/Darshit-Reactjs.pdf";
 
 const Home = () => {
   return (

@@ -708,3 +708,18 @@ img.man-icons {
   flex-direction: column;
   gap: 50px;
 }
+
+/* ...existing code... */
+
+@media screen and (max-width: 600px) {
+  .contact .details {
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+  .details-sub-div {
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+}
+/* ...existing code... */
