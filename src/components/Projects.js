@@ -20,12 +20,6 @@ const Projects = () => {
       description: "Learning plateform webplication",
     },
     {
-      title: "Amar Company",
-      imgSrc: amarCms,
-      description: "Pharma coumpany stock managment webaplication",
-      githubLink:"https://amar.samvartaka.com/"
-    },
-    {
       title: "Cook and Boardman poack details",
       imgSrc: cookandBoadrman,
       description: "Distributors and Wholesale data management webapplication",
