@@ -2,7 +2,11 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <section className="projects section contact" style={{marginBottom:"150px"}} id="contact">
+    <section
+      className="projects section contact"
+      style={{ marginBottom: "150px" }}
+      id="contact"
+    >
       <h2 className="section-title">Contact</h2>
 
       <div className="details">
@@ -27,7 +31,13 @@ const Contact = () => {
           </span>
           <span className="detail-item">
             :{"    "}
-            <a href="https://www.linkedin.com/in/darshit-godhani-2a717023b" target="_blank">Link</a>
+            <a
+              href="https://www.linkedin.com/in/darshit-godhani-2a717023b"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Link
+            </a>
           </span>
         </div>
       </div>

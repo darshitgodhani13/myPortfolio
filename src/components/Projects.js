@@ -1,7 +1,6 @@
 import React from "react";
 import bearishos from "../assets/img/bearishos.png";
 import jumboCareer from "../assets/img/jumbocareer.png";
-import amarCms from "../assets/img/amarcms.png";
 import cycleVita from "../assets/img/cyclevita.png";
 import hisurat from "../assets/img/hisurat.png";
 import cookandBoadrman from "../assets/img/cookandboardman.jpg";
@@ -33,14 +32,16 @@ const Projects = () => {
     {
       title: "Prism",
       imgSrc: "Prism",
-      description: "An internet service provider customer review and data analysis webapplication",
+      description:
+        "An internet service provider customer review and data analysis webapplication",
     },
     {
       title: "Hisurat",
       imgSrc: hisurat,
-      description: "Discover Surat events, businesses, explore places, and book tickets online",
-      githubLink: "https://www.hisurat.com/"
-    }
+      description:
+        "Discover Surat events, businesses, explore places, and book tickets online",
+      githubLink: "https://www.hisurat.com/",
+    },
   ];
 
   const navigetPage = (link) => {

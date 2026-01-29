@@ -16,7 +16,12 @@ const Home = () => {
               <span className="animate-charcter">Web Developer</span>
             </h2>
 
-            <a href={resume} target="_blank" className="button">
+            <a
+              href={resume}
+              target="_blank"
+              rel="noreferrer"
+              className="button"
+            >
               Resume
             </a>
           </div>
@@ -29,6 +34,7 @@ const Home = () => {
           <a
             href="https://www.linkedin.com/in/darshit-godhani-2a717023b/"
             target="_blank"
+            rel="noreferrer"
             className="home-social-icon"
           >
             <i className="bx bxl-linkedin"></i>
